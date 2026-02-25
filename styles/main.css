@@ -39,3 +39,41 @@ aside a:visited {
 h4 {
     font-weight: normal;
 }
+
+/* Hide Moble
+
+
+
+
+
+/******************************************************
+*******************************************************
+Media Queries
+*******************************************************
+******************************************************/
+@media only screen and (max-width: 933px){
+    body {
+      box-shadow: none;
+       font: 90%;
+    }
+    main {
+       flex-wrap: wrap;
+       align-items: center;
+    }
+    #left {
+        order: 1;
+        flex: 0 1 90%;
+    }
+    section {
+        flex: 0 1 70%;
+    }
+
+
+}
+@media only screen and (max-width: 767px) {
+    #nav_menu {
+        display: none;
+    }
+
+}
+ 
